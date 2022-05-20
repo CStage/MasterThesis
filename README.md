@@ -1,7 +1,7 @@
 # MasterThesis
 
 ## Introduction
-This repo contains all code related to machine learning activities in the Master Thesis: _Musical Impressions and Album Art: Investigating the Patterns_ by Philip Fisker (pfisk) and Christian Stage (CStage), MSc. Software Design students from the IT University of Copenhagen, supervised by Max Müller-Eberstein. The repo consists of two folders **IRM** and **Generation**. **IRM** contains two Python notebooks related to training of our image retrieval models and **Generation** contains a number of Python scripts related to training our generative models. The notebooks were run using GPUs from Google Colab whereas the scripts were run on the HPC at ITU. All code depend on access to hdf5-datasets that have been omitted from this repo due to size constraints. Therefore, the code is for reference only.
+This repo contains all code related to machine learning activities in the Master Thesis: _Musical Impressions and Album Art: Investigating the Patterns_ by Philip Fisker (PFisk) and Christian Stage (CStage), MSc. Software Design students from the IT University of Copenhagen, supervised by Max Müller-Eberstein. The repo consists of two folders **IRM** and **Generation**. **IRM** contains two Python notebooks related to training of our image retrieval models and **Generation** contains a number of Python scripts related to training our generative models. The notebooks were run using GPUs from Google Colab whereas the scripts were run on the HPC at ITU. All code depend on access to hdf5-datasets that have been omitted from this repo due to size constraints. Therefore, the code is for reference only.
 
 ## Contents
 
