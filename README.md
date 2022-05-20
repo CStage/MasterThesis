@@ -9,7 +9,7 @@ This repo contains all code related to machine learning activities in the Master
 This folder contains two notebooks _NonSequential_ and _Sequential_. These contain setup and training for image retrieval models with non-sequential and sequential data respectively.
 
 ### Generation
-This folder contains all scripts related to training our generative models. It consists of two subfolders **SVF** and **SVFGY** named after the type of input the containing models require. Explanations of these types of input are available in the thesis report. The contents of the filenames describe the anatomy of the model trained by the script.
+This folder contains all scripts related to training our generative models. It consists of two subfolders **SVF** and **SVFGY** named after the type of input the containing models require. Explanations of these types of input are available in the thesis report. The contents of the filenames describe the anatomy of the model trained by the script. For each subfolder there is one file without extension called _MLP_. This is a pretrained Multi-Layer Perceptron state_dict that is used in some models to pre-encode input tensors before they are passed on to generative models.
 
 - **MSE** -> MSELoss-based Generator
 - **DCGAN** -> Deep Convolutional Generative Adversarial Network (DCGAN)
