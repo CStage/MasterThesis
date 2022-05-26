@@ -332,7 +332,6 @@ if __name__ == '__main__':
 
         anchors = torch.reshape(anchors, (positives.shape[0], 3, 4096))
 
-        # Positives prob has wrong shape (might need to be pancake'ed 🥞)
         loss = criterion(anchors, positives)
         loss.backward()
         g_optimizer.step()
